@@ -14,19 +14,22 @@
 			<div class="main_content_overlay">
 				<div id="mainHeader" class=" row header">
 					<div class="col-md-12">
+						<p id="location">
+							<span id="state">Dhaka</span>
+							<span id="country">Bangladesh</span>  </p>
 						<p class="top_header"> C | F </p>
 					</div>
 				</div>
 				<div id="mainContent" class="row main_content">
 					<div class="col-md-4 col-sm-4 col-xs-4">
 						<div class="status_icon">
-							<img id="statusIcon" src="img/thunder.png">
+							<img id="statusIcon">
 						</div>
 					</div>
 
 					<div id="currentTempAmound" class="col-md-4 col-sm-4 col-xs-4">
 						<div class="current_temp_amount neon">
-							<p>21 <sup class="degree">o</sup> C </p>
+							<p id="current">21 <sup class="degree">o</sup> C </p>
 						</div>
 					</div>
 					<div id="lowHigh" class="col-md-4 col-sm-4 col-xs-4">
